@@ -6,5 +6,5 @@ while (!(Number(userReply))) {
 
 const userSeconds = Math.floor(userReply * 3600);
 
-alert (`We've got ${userSeconds} seconds from ${userReply} hour(s)`);
+alert (`${userReply} hour(s) is equal ${userSeconds} second(s)!`);
 
